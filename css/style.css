@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a, li {
+    font-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgba(153, 164, 88, 1);
+
+}
+
+nav {
+    background-color:gray
+;
+    position: sticky;
+    top: 0;
+}
+
+.textoInicio {
+    text-align: center;
+    padding-top: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/*PAGINA DE HORARIOS*/
+.fotosHora{
+    height: 950px;
+    width: 950px;
+}
+.plantillaHoras{
+    text-align: center;
+}
+
+/*PAGINA DE CONTACTO*/
+.mailNumero{
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+.fotoContact{
+    height: 700px;
+    width: 1300px;
+    padding-top: 300px;
+    padding-left: 600px;
+}
+
+/*PAGINA DE FOTOS*/
+.textoFotos {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.fotosArriba {
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.imagen1 {
+    height: 300px;
+    width: 600px;
+}
+
+.imagen2 {
+    padding-left: 200px;
+    height: 300px;
+    width: 690px;
+}
+
+.fotosAbajo {
+    padding-left: 350px;
+    padding-top: 200px;
+}
+
+.imagen3 {
+    height: 300px;
+    width: 600px;
+}
+
+.imagen4 {
+    padding-left: 200px;
+    height: 300px;
+    width: 700px;
+}
+/*PAGINA DE PLANES*/
+.textoPlanes{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.planesArriba {
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.planUno {
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    
+}
+
+
+.planDos {
+    padding-left: 600px;
+    padding-bottom: 200px;
+    
+}
+
+.planesAbajo{
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.planTres {
+    height: 300px;
+    width: 600px;
+    position: absolute;
+}
+
+.planCuatro{
+    padding-left: 600px;
+    padding-bottom: 200px;
+    
+}
+
+
+
+#fotoHead {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+
+.fondoTitulo {
+    position: absolute;
+    font-size: 30px;
+    text-align: left;
+    color:yellow;
+}
+
+
+
+
+#naveBar{
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+
+}
+
+ul , li , a{
+    color: rgb(0, 0, 0);
+}
+
+
+#articulos .articulosContenedor .estiloArt {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    overflow: auto;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+footer .footerRedes {
+    direction: rtl;
+}
+
+.footerIcons {
+    height: 70px;
+    width: 70px;
+
+}
+
+footer {
+    background-color:rgba(88, 107, 4, 0.952);
+    height: 200px;
+    margin-bottom: 0;
+
+}
+
