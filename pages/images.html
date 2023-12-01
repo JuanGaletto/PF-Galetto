@@ -6,6 +6,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Fitness Park</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        
+        .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        }
+        
+
+        .grid-item {
+        border: 1px solid #ddd;
+        padding: 20px;
+        }
+    </style>
 </head>
 
 
@@ -39,15 +58,41 @@
         <h2>
             <p class="textoFotos">"En este gimnasio, no solo entrenamos cuerpos, entrenamos mentes para ser fuertes, resilientes y determinadas. Cada gota de sudor te acerca un paso más hacia tus metas. ¡Nunca subestimes el poder de tu propia determinación!"</p>
         </h2>
-        <section class="fotosArriba">
-            <img class="imagen1" src="../images/images.jfif" alt="imagen1.1">
-            <img class="imagen2" src="../images/images (1).jfif" alt="imagen2.2">
+        
             
-        </section>
-        <section class="fotosAbajo">
-            <img class="imagen3" src="../images/images (2).jfif" alt="imagen3.3">
-            <img class="imagen4" src="../images/images (3).jfif" alt="imagen4.4">
-        </section>
+        <div class="container-mt-5">
+            <div class="row">
+            <div class="col-md-4">
+                <img src="../images/images.jfif" alt="Foto 1" class="img-fluidL">
+            </div>
+            <div class="col-md-4">
+                <img src="." alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="../images/images (2).jfif" alt="Foto 3" class="img-fluidR">
+            </div>
+            </div>
+        </div>
+        
+        <div class="container-mt-6">
+  
+            <div class="row mt-3">
+            <div class="col-md-4">
+                <img src="../images/images (1).jfif" alt="Foto 4" class="img-fluidL">
+            </div>
+            <div class="col-md-4">
+                <img src="." alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="../images/images (3).jfif" alt="Foto 6" class="img-fluidR">
+            </div>
+            </div>
+        </div>
+  
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         
     </main>
 
