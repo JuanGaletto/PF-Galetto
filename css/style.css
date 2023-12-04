@@ -148,13 +148,16 @@ ul , li , a{
     text-align: center;
 }
 
-footer .footerRedes {
+#footer .footerRedes {
     direction: rtl;
+    justify-content: end;
 }
 
 .footerIcons {
     height: 70px;
     width: 70px;
+    justify-content: flex-end;
+
 
 }
 
