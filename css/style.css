@@ -1,170 +1,157 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
 a, li {
-    font-style: none;
-    text-decoration: none;
-    display: inline-block;
-    color: black;
+  font-style: none;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
 }
 
 main {
-    min-height: 100vh;
-    background-color: rgba(153, 164, 88, 1);
-
+  min-height: 100vh;
+  background-color: rgb(153, 164, 88);
 }
 
 /*BARRA DE NAVEGACIÓN*/
 .icon-mancuerna {
-    width: 70px;
-    justify-content: left;
-    margin-left: 50px;
+  width: 70px;
+  justify-content: left;
+  margin-left: 50px;
 }
 
 #navbarNav {
-    justify-content: end;
-    padding-right: 100px;
+  justify-content: end;
+  padding-right: 100px;
 }
 
 .navbar {
-    background-color: gray;
-    font-size: 30px;
+  background-color: gray;
+  font-size: 30px;
 }
 
-
-
-
-
 .textoInicio {
-    text-align: center;
-    padding-top: 400px;
-    padding-left: 150px;
-    padding-right: 150px;
+  text-align: center;
+  padding-top: 400px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /*PAGINA DE HORARIOS*/
-.fotosHora{
-    height: 950px;
-    width: 950px;
+.fotosHora {
+  height: 950px;
+  width: 950px;
 }
-.plantillaHoras{
-    text-align: center;
+
+.plantillaHoras {
+  text-align: center;
 }
 
 /*PAGINA DE CONTACTO*/
-.mailNumero{
-    text-align: center;
-    padding-top: 200px;
+.mailNumero {
+  text-align: center;
+  padding-top: 200px;
 }
 
-
-.fotoContact{
-    height: 700px;
-    width: 1300px;
-    padding-top: 300px;
-    padding-left: 600px;
+.fotoContact {
+  height: 700px;
+  width: 1300px;
+  padding-top: 300px;
+  padding-left: 600px;
 }
 
 /*PAGINA DE FOTOS*/
 .textoFotos {
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-
-.container-mt-5{
-    display: flex;
-    justify-content: space-around;
+.container-mt-5 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.container-mt-6{
-    display: flex;
-    justify-content: space-around;
-    margin: 100px;
+.container-mt-6 {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
 }
 
-.img-fluidR{
-    padding-right: 200px;
+.img-fluidR {
+  padding-right: 200px;
 }
 
 /*PAGINA DE PLANES*/
-.textoPlanes{
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
+.textoPlanes {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .grid-item {
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
 }
-
-
 
 #fotoHead {
-    width: 100%;
-    height: 50vh;
-    display: flex;
+  width: 100%;
+  height: 50vh;
+  display: flex;
 }
-
 
 .fondoTitulo {
-    position: absolute;
-    font-size: 30px;
-    text-align: left;
-    color:yellow;
+  position: absolute;
+  font-size: 30px;
+  text-align: left;
+  color: yellow;
 }
 
-
-ul , li , a{
-    color: rgb(0, 0, 0);
+ul, li, a {
+  color: rgb(0, 0, 0);
 }
-
 
 #articulos .articulosContenedor .estiloArt {
-    width: 200px;
-    height: 200px;
-    background-color: brown;
-    overflow: auto;
-    padding: 10px;
-    border: 5px solid black;
-    margin: 20px;
-    text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  overflow: auto;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 20px;
+  text-align: center;
 }
 
 #footer .footerRedes {
-    direction: rtl;
-    justify-content: end;
+  direction: rtl;
+  justify-content: end;
 }
 
 .footerIcons {
-    height: 70px;
-    width: 70px;
-    justify-content: flex-end;
-
-
+  height: 70px;
+  width: 70px;
+  justify-content: flex-end;
 }
 
 footer {
-    background-color:rgba(88, 107, 4, 0.952);
-    height: 200px;
-    margin-bottom: 0;
-
+  background-color: rgba(88, 107, 4, 0.952);
+  height: 200px;
+  margin-bottom: 0;
 }
 
+/*# sourceMappingURL=style.css.map */
