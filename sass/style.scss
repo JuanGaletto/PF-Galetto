@@ -10,7 +10,7 @@ a, li {
     font-style: none;
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 main {
@@ -34,43 +34,36 @@ main {
 }
 
 .navbar {
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     font-size: 30px;
 }
 
 
-
-
-
-
 .textoInicio {
     text-align: center;
-    padding-top: 400px;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 /*PAGINA DE HORARIOS*/
 .fotosHora{
-    height: 950px;
-    width: 950px;
+    max-width: 100%;
+    height: auto;
 }
 .plantillaHoras{
     text-align: center;
+    height: 950px;
+    width: 950px;
 }
 
 /*PAGINA DE CONTACTO*/
 .mailNumero{
     text-align: center;
-    padding-top: 200px;
 }
 
 
 .fotoContact{
+    display: flex;
     height: 700px;
     width: 1300px;
-    padding-top: 300px;
-    padding-left: 600px;
 }
 
 /*PAGINA DE FOTOS*/
@@ -81,6 +74,12 @@ main {
     padding-right: 150px;
 }
 
+.imagenes {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: cover;
+}
 
 .container-mt-5{
     display: flex;
@@ -94,7 +93,7 @@ main {
 }
 
 .img-fluidR{
-    padding-right: 200px;
+    padding-right: 200px;  
 }
 
 /*PAGINA DE PLANES*/
@@ -113,7 +112,7 @@ main {
 }
 
 .grid-item {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     padding: 20px;
     text-align: center;
 }
@@ -131,7 +130,7 @@ main {
     position: absolute;
     font-size: 30px;
     text-align: left;
-    color:yellow;
+    color:rgb(255, 255, 0);
 }
 
 
@@ -143,10 +142,10 @@ ul , li , a{
 #articulos .articulosContenedor .estiloArt {
     width: 200px;
     height: 200px;
-    background-color: brown;
+    background-color: rgb(165, 42, 42);
     overflow: auto;
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
     margin: 20px;
     text-align: center;
 }
@@ -166,4 +165,17 @@ footer {
     background-color:rgba(88, 107, 4, 0.952);
     height: 200px;
     margin-bottom: 0;
+}
+
+@media screen and(max-width:950px){
+    .plantillaHoras{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and(max-width:400px){
+    .fotosHora{
+
+    }
 }
